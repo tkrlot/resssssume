@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (lang === 'ar') {
             window.location.href = 'resume-ar.html';
         } else {
-            window.location.href = 'resume-en.html';
+            window.location.href = 'index.html';
         }
     });
 });
