@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>السيرة الذاتية - جون دو</title>
-    <link rel="stylesheet" href="style.css">
+    <title>السيرة الذاتية</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
-<body>
-    <header>
-        <div class="nav-links">
-            <a href="#!" class="lang-toggle" data-lang="en">English</a>
-            <a href="#!" class="dark-mode-toggle">🌙</a>
-        </div>
-    </header>
-    <div class="main-content">
-        <h1>جون دو</h1>
-        <p>مهندس برمجيات ذو خبرة تزيد عن 10 سنوات في تطوير البرمجيات الشاملة.</p>
-        <p>تخصص في إنشاء حلول برمجية قابلة للتوسع وفعالة لمجالات متنوعة.</p>
-        <!-- Add more content here -->
-        <div class="pdf-download">
-            <a href="resume-john-doe.pdf" download>تحميل PDF</a>
-        </div>
+<body class="dark-mode">
+    <div class="container">
+        <header>
+            <nav>
+                <button id="toggle-theme">تبديل الوضع</button>
+                <button id="toggle-language">التبديل إلى الإنجليزية</button>
+            </nav>
+            <h1 id="name">جون دو</h1>
+            <p id="title">مهندس برمجيات</p>
+        </header>
+        <section id="bio">
+            <h2>السيرة الذاتية</h2>
+            <p id="bio-text">أنا مهندس برمجيات أملك أكثر من 10 سنوات من الخبرة في تطوير الويب. تشمل مهاراتي HTML و CSS و JavaScript وأطر عمل مختلفة. لدي شغف بخلق حلول مبتكرة وحل المشكلات المعقدة.</p>
+        </section>
+        <section id="skills">
+            <h2>المهارات</h2>
+            <ul id="skills-list">
+                <li>HTML و CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>اتصل بي</h2>
+            <p>البريد الإلكتروني: john.doe@example.com</p>
+            <p>الهاتف: +123456789</p>
+        </section>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
