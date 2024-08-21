@@ -3,24 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - John Doe</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
-<body>
-    <header>
-        <div class="nav-links">
-            <a href="#!" class="lang-toggle" data-lang="ar">عربي</a>
-            <a href="#!" class="dark-mode-toggle">🌙</a>
-        </div>
-    </header>
-    <div class="main-content">
-        <h1>John Doe</h1>
-        <p>Software Engineer with over 10 years of experience in full-stack development.</p>
-        <p>Specialized in creating scalable and efficient software solutions for various industries.</p>
-        <div class="pdf-download">
-            <a href="resume-john-doe.pdf" download>Download PDF</a>
-        </div>
+<body class="dark-mode">
+    <div class="container">
+        <header>
+            <nav>
+                <button id="toggle-theme">Toggle Theme</button>
+                <button id="toggle-language">Switch to Arabic</button>
+            </nav>
+            <h1 id="name">John Doe</h1>
+            <p id="title">Software Engineer</p>
+        </header>
+        <section id="bio">
+            <h2>Biography</h2>
+            <p id="bio-text">I am a software engineer with over 10 years of experience in web development. My skills include HTML, CSS, JavaScript, and various frameworks. I have a passion for creating innovative solutions and solving complex problems.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul id="skills-list">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: john.doe@example.com</p>
+            <p>Phone: +123456789</p>
+        </section>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
