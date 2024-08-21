@@ -1,0 +1,99 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #eee;
+    background-color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode body {
+    background-color: #2b2b2b;
+    color: #eee;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #666;
+}
+
+.dark-mode-toggle {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.lang-toggle {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lang-toggle svg {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.main-content {
+    margin-top: 70px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content h1 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.pdf-download {
+    margin-top: 20px;
+}
+
+.pdf-download a {
+    color: #1e90ff;
+    text-decoration: none;
+    border: 2px solid #1e90ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pdf-download a:hover {
+    background-color: #1e90ff;
+    color: #fff;
+}
